@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "debug": "NODE_OPTIONS='--inspect' next dev",
+    "debug": "cross-env NODE_OPTIONS='--inspect' next dev",
     "stylelint": "stylelint \"**/*.css\" --fix"
   },
   "dependencies": {
@@ -20,6 +20,7 @@
     "@types/react": "17.0.38",
     "@typescript-eslint/eslint-plugin": "^5.8.1",
     "@typescript-eslint/parser": "^5.8.1",
+    "cross-env": "^7.0.3",
     "eslint": "8.6.0",
     "eslint-config-next": "12.0.7",
     "stylelint": "^13.12.0",
