@@ -1,15 +1,28 @@
+import { P } from "components/P";
 import type { NextPage } from "next";
 import { Button } from "../components/Button";
-import { Htag } from "../components/Htag";
+import { H } from "../components/H";
 
 const Home: NextPage = () => {
   return (
     <div>
-      <Htag tag="h1">abc</Htag>
-      <Button>A</Button>
+      <H tag="h1">abc</H>
+      <Button arrow="top">A</Button>
       <Button variant="secondary" arrow="top">
-        B
+        t
       </Button>
+      <Button variant="secondary" arrow="right">
+        r
+      </Button>
+      <Button variant="secondary" arrow="bottom">
+        b
+      </Button>
+      <Button variant="secondary" arrow="left">
+        l
+      </Button>
+      <P size="s">sssssss</P>
+      <P size="m">mmmmmmm</P>
+      <P size="l">llllllll</P>
     </div>
   );
 };

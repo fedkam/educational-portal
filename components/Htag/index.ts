@@ -1,1 +1,0 @@
-export { Htag } from './Htag.component';

@@ -2,7 +2,7 @@ import { FC } from "react";
 import { ButtonProps } from "./Button.types";
 import cn from "classnames";
 import styles from "./Button.module.css";
-import Arrow from "assets/images/svg/Arrow.svg";
+import Arrow from "assets/images/svg/arrow.svg";
 
 export const Button: FC<ButtonProps> = ({
   variant = "primary",
