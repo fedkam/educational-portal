@@ -1,3 +1,4 @@
+import { Chip } from "components/Chip";
 import { P } from "components/P";
 import type { NextPage } from "next";
 import { Button } from "../components/Button";
@@ -23,6 +24,15 @@ const Home: NextPage = () => {
       <P size="s">sssssss</P>
       <P size="m">mmmmmmm</P>
       <P size="l">llllllll</P>
+      <Chip>primary</Chip>
+      <Chip color="secondary">secondary</Chip>
+      <Chip color="red">red</Chip>
+      <Chip color="green">green</Chip>
+      <Chip color="grey">grey</Chip>
+      <Chip size="s">primary s</Chip>
+      <Chip size="s" href="#">
+        primary s href
+      </Chip>
     </div>
   );
 };
