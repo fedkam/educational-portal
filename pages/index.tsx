@@ -7,7 +7,9 @@ const Home: NextPage = () => {
     <div>
       <Htag tag="h1">abc</Htag>
       <Button>A</Button>
-      <Button variant="secondary">B</Button>
+      <Button variant="secondary" arrow="top">
+        B
+      </Button>
     </div>
   );
 };

@@ -32,3 +32,31 @@
 .secondary:hover {
     background-color: var(--seconfdary-hover);
 }
+
+.arrow {
+    display: inline-block;
+
+    margin-left: 10px;
+
+    transition: all 0.2s;
+}
+
+.arrowTop {
+    transition: all 0.2s;
+    transform: rotate(-90deg);
+}
+
+.arrowBottom {
+    transition: all 0.2s;
+    transform: rotate(90deg);
+}
+
+.arrowLeft {
+    transition: all 0.2s;
+    transform: rotate(180deg);
+}
+
+.primary svg,
+.ghost:hover svg {
+    fill: var(--white);
+}
